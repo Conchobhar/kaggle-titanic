@@ -16,7 +16,7 @@ def tf_model_btb(train_x, train_y, test_x, test_y = None, learning_rate = 0.1, n
 
     tf.reset_default_graph()
     
-    saver_filename = "./by_the_book.ckpt"
+    saver_filename = "./saver_checkpoint/by_the_book.ckpt"
 
     _, n_inputs = train_x.shape
     _, n_outputs = train_y.shape
