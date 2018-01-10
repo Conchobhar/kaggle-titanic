@@ -2,7 +2,7 @@
 # Tensorflow model:
 ################################################################################
 '''
-This is just a modified version of the original TF model to utilize some tensorboard
+Modified version of the original TF model to utilize some tensorboard
 features.
 '''
 
@@ -161,4 +161,4 @@ submission = pd.DataFrame({
         "PassengerId": data_test_passenger_id,
         "Survived": np.ravel(test_Ypred)
     })
-# submission.to_csv('/home/xu/Work/kaggle/titanic/output/tfpy_submission.csv', index=False)
+# submission.to_csv('./output/tfpy_submission.csv', index=False)

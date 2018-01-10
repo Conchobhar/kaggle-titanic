@@ -16,7 +16,7 @@ def tf_model_btb(train_x, train_y, test_x, test_y = None, learning_rate = 0.1, n
 
     tf.reset_default_graph()
     
-    saver_filename = "/home/xu/Work/kaggle/titanic/by_the_book.ckpt"
+    saver_filename = "./by_the_book.ckpt"
 
     _, n_inputs = train_x.shape
     _, n_outputs = train_y.shape
@@ -126,4 +126,4 @@ submission = pd.DataFrame({
         "PassengerId": test_passenger_id,
         "Survived": np.ravel(Ypred)
     })
-# submission.to_csv('/home/xu/Work/kaggle/titanic/output/tfpy_btb_submission.csv', index=False)
+# submission.to_csv('./output/tfpy_btb_submission.csv', index=False)

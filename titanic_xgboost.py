@@ -32,9 +32,4 @@ submission = pd.DataFrame({
         "PassengerId": data_test_passenger_id,
         "Survived": full_valid_pred
     })
-# submission.to_csv('/home/xu/Work/kaggle/titanic/output/xgbpy_submission.csv', index=False)
-
-# To try
-
-# ahmeds approach
-# matts approach
+# submission.to_csv('./output/xgbpy_submission.csv', index=False)

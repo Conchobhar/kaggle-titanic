@@ -1,2 +1,2 @@
-model_checkpoint_path: "/home/xu/Work/kaggle/titanic/by_the_book.ckpt"
-all_model_checkpoint_paths: "/home/xu/Work/kaggle/titanic/by_the_book.ckpt"
+model_checkpoint_path: "by_the_book.ckpt"
+all_model_checkpoint_paths: "by_the_book.ckpt"

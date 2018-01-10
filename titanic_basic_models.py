@@ -101,4 +101,4 @@ submission = pd.DataFrame({
         "PassengerId": test_passenger_id,
         "Survived": forest_pred
     })
-# submission.to_csv('/home/xu/Work/kaggle/titanic/output/rndforest_submission.csv', index=False)
+# submission.to_csv('./output/rndforest_submission.csv', index=False)

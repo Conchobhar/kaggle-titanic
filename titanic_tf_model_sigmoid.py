@@ -166,4 +166,4 @@ submission = pd.DataFrame({
         "PassengerId": test_passenger_id,
         "Survived": np.ravel(test_Ypred)
     })
-# submission.to_csv('/home/xu/Work/kaggle/titanic/output/tfpy_submission_3.csv', index=False)
+# submission.to_csv('./output/tfpy_submission_3.csv', index=False)
